@@ -1,0 +1,38 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@common/api": ["libs/common/api/src/index.ts"],
+      "@common/assets/*": ["libs/common/assets/src/*"],
+      "@common/components": ["libs/common/components/src/index.ts"],
+      "@common/hooks": ["libs/common/hooks/src/index.ts"],
+      "@common/layout": ["libs/common/layout/src/index.ts"],
+      "@common/types": ["libs/common/types/src/index.ts"],
+      "@common/utils": ["libs/common/utils/src/index.ts"],
+      "@config": ["libs/config/src/index.ts"],
+      "@theme": ["libs/common/theme/src/index.ts"],
+      "@webadmin/api": ["libs/webadmin/api/src/index.ts"],
+      "@webadmin/components": ["libs/webadmin/components/src/index.ts"],
+      "@webadmin/hooks": ["libs/webadmin/hooks/src/index.ts"],
+      "@webadmin/layout": ["libs/webadmin/layout/src/index.ts"],
+      "@webadmin/store": ["libs/webadmin/store/src/index.ts"],
+      "@webapp/hooks": ["libs/webapp/hooks/src/index.ts"],
+      "@webapp/layout": ["libs/webapp/layout/src/index.ts"],
+      "@webapp/store": ["libs/webapp/store/src/index.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}

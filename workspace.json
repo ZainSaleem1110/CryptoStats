@@ -1,0 +1,27 @@
+{
+  "$schema": "./node_modules/nx/schemas/workspace-schema.json",
+  "version": 2,
+  "projects": {
+    "common-api": "libs/common/api",
+    "common-assets": "libs/common/assets",
+    "common-components": "libs/common/components",
+    "common-hooks": "libs/common/hooks",
+    "common-layout": "libs/common/layout",
+    "common-theme": "libs/common/theme",
+    "common-types": "libs/common/types",
+    "common-utils": "libs/common/utils",
+    "config": "libs/config",
+    "webadmin": "apps/webadmin",
+    "webadmin-api": "libs/webadmin/api",
+    "webadmin-components": "libs/webadmin/components",
+    "webadmin-e2e": "apps/webadmin-e2e",
+    "webadmin-hooks": "libs/webadmin/hooks",
+    "webadmin-layout": "libs/webadmin/layout",
+    "webadmin-store": "libs/webadmin/store",
+    "webapp": "apps/webapp",
+    "webapp-e2e": "apps/webapp-e2e",
+    "webapp-hooks": "libs/webapp/hooks",
+    "webapp-layout": "libs/webapp/layout",
+    "webapp-store": "libs/webapp/store"
+  }
+}
