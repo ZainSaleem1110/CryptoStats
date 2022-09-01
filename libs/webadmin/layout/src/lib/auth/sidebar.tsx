@@ -13,11 +13,10 @@ export const Sidebar = () => {
     <Box sx={{ 
       width: 250,
       backgroundColor: '#1E293B',
-      minHeight: '100vh',
-      height: '100%',
+      height: '100vh',
       display:'flex',
       flexDirection:'column',
-      position: 'fixed',
+      overflow:'hidden',
       borderRight: '1px solid rgba(255, 255, 255, 0.2)',
     }}>
       <Box

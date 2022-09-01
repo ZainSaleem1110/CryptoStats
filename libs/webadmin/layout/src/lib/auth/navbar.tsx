@@ -51,7 +51,6 @@ const Navbar = () => {
   return (
     <>
       <AppBar 
-        position="fixed" 
         elevation={0} 
         sx={{ 
           backgroundColor: '#1E293B',
@@ -60,7 +59,7 @@ const Navbar = () => {
           maxWidth: {
             sm: '100%',
             md: width && width - 250 + 'px',
-            lg: width && width - 265 + 'px',
+            lg: width && width - 250 + 'px',
           },
           padding: {
             md: '1rem',
